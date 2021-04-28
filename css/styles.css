@@ -9,8 +9,34 @@
 body {
   font-family: Montserrat, sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
 .link {
   text-decoration: none;
+}
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 1px solid rgb(161, 161, 161, 0.5);
+}
+.header-link {
+  display: block;
+  padding: 40px 20px;
 }
 .section-title {
   font-weight: bold;
@@ -37,6 +63,8 @@ ul {
   color: var(--secondary-text-color);
 }
 .hero {
+  padding-top: 220px;
+  padding-bottom: 335px;
   background-color: var(--secondary-title-color);
 }
 .hero-text {
@@ -45,6 +73,7 @@ ul {
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
+  margin-bottom: 20px;
 }
 .hero-title {
   font-weight: 800;
@@ -52,6 +81,8 @@ ul {
   line-height: 1.33;
   text-align: center;
   color: var(--primary-title-color);
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 .button {
   font-weight: 500;
@@ -68,6 +99,9 @@ ul {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+.hero-button {
+  margin: 0 auto;
 }
 .button:hover,
 .button:focus {
